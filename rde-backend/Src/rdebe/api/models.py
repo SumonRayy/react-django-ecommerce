@@ -1,10 +1,11 @@
+import uuid
 from django.db import models
 
 # Create your models here.
 
 
 class Product(models.Model):
-    product_id = models.AutoField
+    product_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     product_name = models.CharField(max_length=100)
     sku = models.CharField(max_length=75, default="")
     category = models.CharField(max_length=50, default="")
