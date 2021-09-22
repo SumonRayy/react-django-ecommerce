@@ -1,0 +1,49 @@
+:root {
+  /*===== Colores =====*/
+  --first-color: #f2a20c;
+  --second-color: rgba(247, 237, 226, 1);
+  --white-color: #e9eaec;
+  --dark-color: #272d40;
+  --dark-color-lighten: #f2f5ff;
+  /*===== Fuente y tipografia =====*/
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.2rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 2px;
+  margin-right: 2px;
+  color: var(--second-color);
+  background: var(--dark-color);
+}
+
+.nav-bar > h1 {
+  font-family: "Bonheur Royale", cursive;
+  font-size: 2.5em;
+}
+
+.nav-bar-pages {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.nav-bar-pages > h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-bar-pages :hover {
+  color: var(--first-color);
+  cursor: pointer;
+}
