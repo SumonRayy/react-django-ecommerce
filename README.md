@@ -1,3 +1,4 @@
+
 # React-Django-Ecommerce App 🛒🌐
 <center>
     <img src="https://imgur.com/NW59paB.png" width=300px/>
@@ -29,23 +30,23 @@
 ## - Getting Started With this Project :
 
 - ### Step - 1 : Clone The Repo by
-    go to your `terminal`
+    go to your **terminal**
      ```
      git clone https://github.com/Black-league/react-django-ecommerce.git 
      ```
 - ### Step - 2 : Install Backend Packages 
-    go inside the `react-django-ecommerce/rde-backend/` directory then run 
+    go inside the **react-django-ecommerce/rde-backend/** directory then run 
     ```
     pip install -r requirements.txt
     ```
 - ### Step - 3 : Run the server
-    go inside the `react-django-ecommerce/rde-backend/Src/rdebe/` directory and run 
+    go inside the **react-django-ecommerce/rde-backend/Src/rdebe/** directory and run 
     ```
     python manage.py runserver
     ```
     > It will initialize the `django` server. To know more follow the [Django Docs](https://docs.djangoproject.com/en/3.2/) 
 - ### Step - 4 : Configure The FrontEnd
-    go inside the `react-django-ecommerce/rde-frontend/` directory then run 
+    go inside the **react-django-ecommerce/rde-frontend/** directory then run 
     ```
     npm install
     ```
@@ -55,7 +56,7 @@
     ```
     > It will install the required `node_modules`. To know more follow the [NodeJS Docs](https://nodejs.org/docs/latest-v15.x/api/) and [npm Docs](https://docs.npmjs.com/)
 - ### Step - 5 : Starting The React App
-    go inside the `react-django-ecommerce/rde-frontend/` directory then run 
+    go inside the **react-django-ecommerce/rde-frontend/** directory then run 
     ```
     npm start
     ```
@@ -66,4 +67,18 @@
     > It will start the `React` Application. To know more follow the [ReactJS Docs](https://reactjs.org/docs/getting-started.html) 
 - ### Now Modify the project as your need
 ---
+## Contributing
+
+You can contribute to improve this project by:
+
+- edit the code
+- creating a pull request
+- submitting new ideas / features suggestions
+- reporting a bug
+--------------
+
+### Thank You For Checking This Out 🥰🤗 Please give it a Start ⭐ if You've Liked it . . .
+## And Follow Us On GitHub 🙏🏻
+Made by @[SumonRayy](https://github.com/SumonRayy) and @[Faizan](https://github.com/Faizan10933)
+
 
