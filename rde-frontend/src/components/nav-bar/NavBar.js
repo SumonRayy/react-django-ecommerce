@@ -1,18 +1,52 @@
 import React from 'react'
+import SearchBar from '../search-bar/SearchBar'
 import './NavBar.css'
+import { FaShoppingCart } from 'react-icons/fa'
+import { MdAccountCircle } from 'react-icons/md'
 
 function NavBar() {
     return (
         <nav className="nav-bar">
-        <h1>Sneaker Ka Dukaan</h1>
+          <div className="nav-title">
+            <h1>
+              Apna
+              <font color="#f2a20c">Sneakers</font>
+            </h1>
+          </div>
+          <div className="search-bar">
+            <SearchBar />
+          </div>
         <div className="nav-bar-pages">
-          <h2>Home</h2>
-          <h2>Products</h2>
-          <h2>Category</h2>
-          <h2>Shops</h2>
-          <h2>Contact</h2>
-          <h2>Our Story</h2>
+          <div className="pages">Home</div>
+          <div className="line" />
+
+          <div className="pages">New Arrivels</div>
+          <div className="line" />
+
+          <div className="pages">Women</div>
+          <div className="line" />
+
+          <div className="pages">Men</div>
+          <div className="line" />
+
+          <div className="pages">Kids</div>
+          <div className="line" />
+
+          <div className="pages">Contact</div>
+          <div className="line" />
+
+          <div className="pages">Our Story</div>
         </div>
+        <div className="nav-bar-icon">
+          <div className="myicons">
+            <FaShoppingCart size = '30px' />
+          </div>
+
+          <div className="myicons">
+            <MdAccountCircle size ="30px" />
+          </div>
+        </div>
+
       </nav>
     )
 }

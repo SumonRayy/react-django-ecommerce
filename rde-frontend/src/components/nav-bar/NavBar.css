@@ -1,49 +1,64 @@
-:root {
-  /*===== Colores =====*/
-  --first-color: #f2a20c;
-  --second-color: rgba(247, 237, 226, 1);
-  --white-color: #e9eaec;
-  --dark-color: #272d40;
-  --dark-color-lighten: #f2f5ff;
-  /*===== Fuente y tipografia =====*/
-  --body-font: "Poppins", sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.2rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-}
-
 .nav-bar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   align-items: center;
   align-content: center;
-  padding-left: 2px;
-  margin-right: 2px;
   color: var(--second-color);
   background: var(--dark-color);
 }
 
-.nav-bar > h1 {
+.nav-title {
+  flex: 0.2;
   font-family: "Bonheur Royale", cursive;
-  font-size: 2.5em;
+  font-size: 1.5em;
+}
+
+.nav-title :hover {
+  filter: drop-shadow(5px 10px 15px rgb(0, 0, 0));
+  cursor: pointer;
 }
 
 .nav-bar-pages {
   display: flex;
+  float: right;
   flex-direction: row;
+  justify-content: flex-end;
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
 }
 
-.nav-bar-pages > h2 {
-  margin-left: 10px;
-  margin-right: 10px;
+.nav-bar-pages .pages {
+  font-size: 1.5em;
 }
 
 .nav-bar-pages :hover {
   color: var(--first-color);
+  cursor: pointer;
+}
+
+.search-bar {
+  flex: 0.7;
+  text-align: left;
+}
+
+.nav-bar-icon {
+  display: flex;
+  flex: 0.1;
+  justify-content: flex-end;
+  margin-left: 25px;
+  color: whitesmoke;
+}
+
+.myicons {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* padding-right: 10px; */
+}
+
+.myicons :hover {
+  color: var(--first-color);
+  filter: drop-shadow(5px 10px 15px rgb(0, 0, 0));
   cursor: pointer;
 }
