@@ -12,14 +12,16 @@
 
 .product-menu-card {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
   width: 100px;
   height: 250px;
   margin: 20px;
+  text-align: left;
   background-color: var(--dark-color);
   border-radius: 1rem;
-  padding: 4rem 3rem 0;
+  padding: 1rem 5rem 0 1rem;
   color: var(--white-color);
   overflow-y: hidden;
 }
@@ -33,4 +35,8 @@
 .product-container {
   display: flex;
   justify-content: space-between;
+}
+
+.menu-header {
+  font-size: 1.2em;
 }

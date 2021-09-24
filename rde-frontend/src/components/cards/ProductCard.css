@@ -1,20 +1,3 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-/*===== VARIABLES CSS =====*/
-:root {
-  /*===== Colores =====*/
-  --first-color: #f2a20c;
-  --white-color: #e9eaec;
-  --dark-color: #272d40;
-  --dark-color-lighten: #f2f5ff;
-  /*===== Fuente y tipografia =====*/
-  --body-font: "Poppins", sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.2rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-}
-
 /* .container {
   height: 75vh;
   display: flex;
@@ -46,6 +29,13 @@
 .card__data {
   transform: translateY(15rem);
   text-align: center;
+}
+
+.card__data > p {
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .card__title {
