@@ -66,7 +66,7 @@
     ```
     > It will start the `React` Application. To know more follow the [ReactJS Docs](https://reactjs.org/docs/getting-started.html) 
 - ### Now Modify the project as your need
----
+--------------
 ## Contributing
 
 You can contribute to improve this project by:
@@ -77,7 +77,7 @@ You can contribute to improve this project by:
 - reporting a bug
 --------------
 
-### Thank You For Checking This Out 🥰🤗 Please give it a Start ⭐ if You've Liked it . . .
+### Thank You For Checking This Out 🥰🤗 Please give it a Star ⭐ if You've Liked it . . .
 ## And Follow Us On GitHub 🙏🏻
 Made by @[SumonRayy](https://github.com/SumonRayy) and @[Faizan](https://github.com/Faizan10933)
 
